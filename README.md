@@ -37,6 +37,6 @@ Ask natural language questions like:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ai-data-agent.git
+git clone https://github.com/calso-christian/eda-ai-agent.git
 cd ai-data-agent
 

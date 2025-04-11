@@ -174,3 +174,5 @@ cython_debug/
 .pypirc
 
 detalized.db
+performance.db
+*.db

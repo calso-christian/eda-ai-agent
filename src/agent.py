@@ -12,6 +12,6 @@ def agent_start():
     llm = init_chat_model('gpt-4o-mini', model_provider='openai')
 
     toolkit = SQLDatabaseToolkit(db=db, llm=llm, top_k=None)
-    agent_executor = create_sql_agent(llm=llm, toolkit=toolkit, agent_type="openai-tools", verbose=True)
-    
+    agent_executor = create_sql_agent(llm=llm, toolkit=toolkit, agent_type="openai-tools", verbose=False, return_intermediate_steps=True)
+
     return agent_executor

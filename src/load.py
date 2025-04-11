@@ -17,10 +17,8 @@ def load_data(path, db_name, table_name):
     if "detalized" not in table_names:
         
         df.to_sql(table_name, engine, index=False)
-        print(f"Table {table_name} has been created in {db_name} database\n\n")
     else:
-        print(f"Table {table_name} already exists in {db_name} database\nSkipping...\n\n")
-
+        pass
     db=SQLDatabase(engine=engine)
 
     return db

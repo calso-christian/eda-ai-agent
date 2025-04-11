@@ -4,3 +4,4 @@ langchain-community
 langchain-experimental
 pandas
 python-dotenv
+streamlit

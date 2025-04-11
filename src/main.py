@@ -1,5 +1,5 @@
-from load import load_data
+from agent import agent_start
 
-db=load_data(r'data\march_detalized.xlsx',"performance","detalized")
+agent = agent_start()
 
-print(db.run("SELECT * FROM detalized LIMIT 2;"))
+agent.invoke({"input":"What is the total payment top 20 agents?"}) 

@@ -3,3 +3,4 @@ langchain-openai
 langchain-community
 langchain-experimental
 pandas
+python-dotenv
